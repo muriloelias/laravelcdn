@@ -1,10 +1,10 @@
 # Laravel CDN Assets Manager
 
-[![Latest Stable Version](https://poser.pugx.org/publiux/laravelcdn/v/stable)](https://packagist.org/packages/publiux/laravelcdn)
-[![Total Downloads](https://poser.pugx.org/publiux/laravelcdn/downloads)](https://packagist.org/packages/publiux/laravelcdn)
-[![Build Status](https://travis-ci.org/publiux/laravelcdn.svg)](https://travis-ci.org/publiux/laravelcdn)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/publiux/laravelcdn/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/publiux/laravelcdn/?branch=master)
-[![License](https://poser.pugx.org/publiux/laravelcdn/license)](https://packagist.org/packages/publiux/laravelcdn)
+[![Latest Stable Version](https://poser.pugx.org/muriloelias/laravelcdn/v/stable)](https://packagist.org/packages/muriloelias/laravelcdn)
+[![Total Downloads](https://poser.pugx.org/muriloelias/laravelcdn/downloads)](https://packagist.org/packages/muriloelias/laravelcdn)
+[![Build Status](https://travis-ci.org/muriloelias/laravelcdn.svg)](https://travis-ci.org/muriloelias/laravelcdn)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/muriloelias/laravelcdn/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/muriloelias/laravelcdn/?branch=master)
+[![License](https://poser.pugx.org/muriloelias/laravelcdn/license)](https://packagist.org/packages/muriloelias/laravelcdn)
 
 
 ##### Content Delivery Network Package for Laravel
@@ -43,7 +43,7 @@ This project has been forked from https://github.com/publiux/laravelcdn. All cre
 Require `publiux/laravelcdn` in your project:
 
 ```bash
-composer require "publiux/laravelcdn:~2.0"
+composer require "muriloelias/laravelcdn:~2.0"
 ```
 
 *If you are using Laravel 5.4 or below, you need to register the service provider:*

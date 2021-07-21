@@ -268,11 +268,23 @@ class AwsS3Provider extends Provider implements ProviderInterface
     {
         $filesOnAWS = new Collection([]);
 
-        $files = $this->s3_client->listObjects([
-            'Bucket' => $this->getBucket(),
-        ]);
+        $params = ['Bucket' => $this->getBucket()];
+        do {
+            $files = $this->s3_client->listObjectsV2($params);
+            $params['ContinuationToken'] = $files->get('NextContinuationToken');
 
-        if (!$files['Contents']) {
+            foreach ($files->get('Contents') as $file) {
+                $a = [
+                    'Key' => $file['Key'],
+                    "LastModified" => $file['LastModified']->getTimestamp(),
+                    'Size' => intval($file['Size'])
+                ];
+                $filesOnAWS->put($file['Key'], $a);
+            }
+        } while ($files->get('IsTruncated'));
+
+
+        if ($filesOnAWS->isEmpty()) {
             //no files on bucket. lets upload everything found.
             return $assets;
         }
