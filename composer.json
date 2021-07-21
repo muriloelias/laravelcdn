@@ -1,5 +1,5 @@
 {
-    "name": "publiux/laravelcdn",
+    "name": "muriloelias/laravelcdn",
     "description": "Content Delivery Network (CDN) Package for Laravel",
     "license": "MIT",
     "keywords": [
@@ -15,8 +15,8 @@
     ],
     "authors": [
         {
-            "name": "Raul Ruiz",
-            "email": "publiux@gmail.com"
+            "name": "Murilo Elias",
+            "email": "messagesonlygit@gmail.com"
         }
     ],
     "require": {

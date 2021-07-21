@@ -154,6 +154,18 @@ return [
                 'upload_folder' => env('AWS_CDN_ASSET_UPLOAD_FOLDER', ''),
 
                 /*
+                 * You can replace folder, ex: public to '' and upload to folder root in your space
+                 */
+                'search_replace_folder' =>'',
+                //ex
+                /*'search_replace_folder' =>
+                    [
+                        'search'=>['public/'],
+                        'replace'=>['']
+                    ]
+                ,*/
+
+                /*
                 |--------------------------------------------------------------------------
                 | Access Control Lists (ACL)
                 |--------------------------------------------------------------------------
