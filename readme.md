@@ -19,8 +19,8 @@ This project has been forked from https://github.com/Vinelab/cdn. All credit for
 This project has been forked from https://github.com/publiux/laravelcdn. All credit for the original work goes there.
 
 #### Laravel Support
-- This fork supports Laravel 5.2 up to an including Laravel 5.5 (`master`).
-- Laravel 5.5 is supported, as is package auto-discovery.
+- This fork supports Laravel 9 up
+- Laravel 9 is supported, as is package auto-discovery.
 
 ## Highlights
 
