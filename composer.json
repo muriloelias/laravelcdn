@@ -23,8 +23,8 @@
         "php": "^8.2",
         "illuminate/support": "^11",
         "illuminate/config": "^11",
-        "symfony/finder": "^6",
-        "symfony/console": "^6",
+        "symfony/finder": "^7",
+        "symfony/console": "^7",
         "aws/aws-sdk-php": "^3"
     },
     "require-dev": {
